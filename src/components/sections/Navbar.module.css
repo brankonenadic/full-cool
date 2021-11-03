@@ -1,14 +1,15 @@
 .nav {
-    background: #000;
+    background: #101522;
     height: 80px;
     /* margin-top: -80px; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 10;
+
 }
 
 .navConteiner {
@@ -31,6 +32,8 @@
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+ 
+
 }
 
 .menuIcon {
@@ -43,6 +46,7 @@
     list-style: none;
     text-align: center;
     margin-right: -22px;
+
 }
 
 .navListItem {
@@ -54,13 +58,25 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0.1rem;
+    padding: 0.5rem 1rem;
     height: 100%;
     cursor: pointer;
+
 }
 
-.active {
+.navLinkS .active {
     border-bottom: 1px solid #01bf71;
+}
+.navBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 8px 16px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
 }
 
 @media screen and (max-width: 960px) {
@@ -84,3 +100,4 @@
         display: none;
     }
 }
+
