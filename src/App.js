@@ -6,9 +6,6 @@ import Navbar from "./components/sections/Navbar";
 function App() {
   return (
     <Fragment>
-      <div>
-        <h1>Loading.....</h1>
-      </div>
       <Navbar />
       <Switch>
         <Route path="/" exact>
