@@ -35,7 +35,7 @@ const Navbar = () => {
             {openMenu && <div className={classes.mobileMenu}>
                 <ul className={classes.mobileMenuList}>
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Link1</LinkS></li>
-                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Link2</LinkS></li>
+                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="main">Link2</LinkS></li>
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Link3</LinkS></li>
                 </ul>
                 <div className={classes.mobileMenuList}><LinkR onClick={closeMenuHandler} to="/sing-up" className={classes.mobileBtn}>Sing up</LinkR></div>
