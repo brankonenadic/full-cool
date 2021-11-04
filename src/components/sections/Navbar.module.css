@@ -60,8 +60,9 @@
     cursor: pointer;
 }
 
-.navLinkS .active {
-    border-bottom: 1px solid #01bf71;
+.navLinkS:active ,.navLinkS:hover, .navLinkS::after {
+    border-bottom: 2px solid #01bf71;
+    color: #01bf71;
 }
 
 .navBtn {
