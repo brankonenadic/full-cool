@@ -24,7 +24,7 @@ const Navbar = () => {
                     <div className={classes.menuIcon}>{iconMenu}</div>
                     <ul className={classes.navList}>
                         <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link1</LinkS></li>
-                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link2</LinkS></li>
+                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="main">Link2</LinkS></li>
                         <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link3</LinkS></li>
                     </ul>
                     <div className={classes.navBtn}>
