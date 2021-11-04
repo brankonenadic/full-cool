@@ -14,6 +14,9 @@ const Navbar = () => {
                     <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link2</LinkS></li>
                     <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link3</LinkS></li>
                 </ul>
+                <div className={classes.navBtn}>
+              <LinkR to="/sing-up"  className={classes.navBtnLink}>Sing up</LinkR>
+                </div>
             </div>
         </div>
     )
