@@ -1,10 +1,16 @@
-import React from 'react'
+import { Fragment } from 'react';
+import Header from '../components/sections/Header';
+import Navbar from '../components/sections/Navbar';
+import Footer from '../components/sections/Footer';
 
 const Home = () => {
     return (
-        <div>
+        <Fragment>
+            <Navbar />
+            <Header />
             <h1>HOME PAGE</h1>
-        </div>
+            <Footer />
+        </Fragment>
     )
 }
 
