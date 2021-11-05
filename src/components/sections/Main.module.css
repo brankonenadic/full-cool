@@ -7,3 +7,16 @@
     margin: auto;
     padding: 20px;
 }
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    padding: 20px;
+}
+
+@media screen and (max-width: 960px) {
+    .mainContainer{
+        flex-direction: column;
+    }
+}

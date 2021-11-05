@@ -3,6 +3,7 @@ import Header from '../components/sections/Header';
 import Navbar from '../components/sections/Navbar';
 import Footer from '../components/sections/Footer';
 import Main from '../components/sections/Main'
+import Contact from '../components/sections/Contact';
 
 const Home = () => {
     return (
@@ -10,6 +11,7 @@ const Home = () => {
             <Navbar />
             <Header />
             <Main />
+            <Contact />
             <Footer />
         </Fragment>
     )

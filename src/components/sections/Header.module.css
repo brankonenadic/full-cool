@@ -34,11 +34,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     color: #fff;
     z-index: 1;
 }
 
 .headerTitle button{
+    margin-top: 30px;
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;
@@ -50,4 +52,9 @@
     cursor: pointer;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
+}
+.headerTitle button:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
 }

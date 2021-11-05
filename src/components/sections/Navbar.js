@@ -23,9 +23,9 @@ const Navbar = () => {
 
                     <div className={classes.menuIcon}>{iconMenu}</div>
                     <ul className={classes.navList}>
-                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link1</LinkS></li>
-                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="main">Link2</LinkS></li>
-                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Link3</LinkS></li>
+                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="header">Home</LinkS></li>
+                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="main">About Us</LinkS></li>
+                        <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="contact">Contat Us</LinkS></li>
                     </ul>
                     <div className={classes.navBtn}>
                         <LinkR to="/sing-up" className={classes.navBtnLink}>Sing up</LinkR>
@@ -34,9 +34,9 @@ const Navbar = () => {
             </div>
             {openMenu && <div className={classes.mobileMenu}>
                 <ul className={classes.mobileMenuList}>
-                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Link1</LinkS></li>
-                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="main">Link2</LinkS></li>
-                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Link3</LinkS></li>
+                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="header">Home</LinkS></li>
+                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="main">About Us</LinkS></li>
+                    <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="contact">Contat Us</LinkS></li>
                 </ul>
                 <div className={classes.mobileMenuList}><LinkR onClick={closeMenuHandler} to="/sing-up" className={classes.mobileBtn}>Sing up</LinkR></div>
             </div>}

@@ -1,0 +1,111 @@
+.contactWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background: rgba(22, 20, 20, 0.667);
+    margin: 0;
+    overflow: hidden;
+    color: #fff;
+}
+
+.leftSide {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.leftSide address a {
+    text-decoration: none;
+    color: #01bf71;
+}
+
+.rightSide {
+    flex: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    background: transparent;
+}
+
+form input {
+    height: 40px;
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid #01bf71;
+    background: transparent;
+}
+
+form textarea {
+    margin: 15px;
+    height: 70px;
+    width: 80%;
+    max-width: 80%;
+    min-width: 80%;
+    max-height: 520px;
+    border: none;
+    border-bottom: 2px solid #01bf71;
+    color: #fff;
+    background: transparent;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #fff;
+    font-size: small;
+    background: transparent;
+}
+
+form input:focus, textarea:focus {
+    outline: none;
+    background: transparent;
+}
+
+form label {
+    margin-top: 15px;
+}
+
+form button {
+    border-radius: 50px;
+    background: #01bf71;
+    white-space: nowrap;
+    width: 80%;
+    margin: 20px;
+    padding: 10px 22px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px) {
+    .contactWrapper {
+        flex-direction: column;
+        left: 0;
+        right: 0;
+    }
+    .leftSide {
+        margin: 50px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .rightSide {
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+}

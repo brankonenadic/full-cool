@@ -4,11 +4,11 @@ import classes from './Header.module.css';
 
 const Header = () => {
     return (
-        <div className={classes.wrapper}>
+        <div id="header" className={classes.wrapper}>
              <div className={classes.headerTitle}>
-                <h1>Some Title</h1>
-                <p>Some text</p>
-                <button>Sing up</button>
+                <h1>Let’s start the journey together</h1>
+                <h3>We turn your ideas into reality</h3>
+                <button>Start now</button>
             </div>
             <div className={classes.backVideo}>
                 <video className={classes.video} autoPlay="autoplay" loop="loop" muted>
