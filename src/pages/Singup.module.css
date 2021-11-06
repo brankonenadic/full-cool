@@ -5,17 +5,20 @@
     flex-direction: column;
 }
 
-.back{
+.back {
     font-size: 1.8rem;
     cursor: pointer;
     text-decoration: none;
     color: #01bf71;
     margin: 20px 20px 0 20px;
 }
-.back:hover{
+
+.back:hover {
     font-size: 1.9rem;
+    border-bottom: 4px solid #01bf71;
     transition: all 0.2s ease-in-out;
 }
+
 .singup {
     margin-top: 30px;
     border-radius: 15px;
@@ -25,8 +28,7 @@
     align-items: center;
     width: auto;
     height: auto;
-    padding: 30px;
-    background: transparent;
+    padding: 10px 80px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
@@ -39,35 +41,36 @@
 }
 
 .singupinput::placeholder {
-    color: #fff;
+    color: rgb(141, 138, 138);
     font-size: small;
-    background: transparent;
 }
 
 .singupinput:focus {
     outline: none;
 }
+
 .singupinput:hover {
     border-bottom: 4px solid #01bf71;
 }
+
 .singuplabel {
-    margin-top: 15px;
+    padding: 5px;
 }
 
 .singupbutton {
-    border-radius: 50px;
+    border-radius: 20px;
     background: #01bf71;
     white-space: nowrap;
     width: 100%;
     margin-top: 50px;
-    padding: 10px 22px;
+    padding: 10px;
     color: #fff;
     font-size: 16px;
     outline: none;
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
+    
 }
 
 .singupbutton:hover {
