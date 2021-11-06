@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className={classes.footer}>
         <div className={classes.socialMedia}>
-            <a rel="noreferrer" href="https://www.instagram.com/_lanin__tata_" target="_blank">
+            <a rel="noreferrer" href="https://www.instagram.com/_lanin__tata_/" target="_blank">
             <i className="fab fa-instagram fa-lg"></i>
             </a>
             <a rel="noreferrer" href="https://www.facebook.com/branko.nenadic.33/" target="_blank">

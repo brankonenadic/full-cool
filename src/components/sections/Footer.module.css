@@ -14,7 +14,12 @@
     margin: 10px;
     cursor: pointer;
   }
-  
+   
+  .socialMedia i:hover {
+    font-size: x-large;
+  }
+
+
   .footer p {
     color: white;
   }
