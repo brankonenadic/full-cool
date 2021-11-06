@@ -70,12 +70,12 @@
     border: none;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
-    
 }
 
 .singupbutton:hover {
-    transition: all 0.2s ease-in-out;
+    padding: 11px;
     background: #fff;
     color: #010606;
     outline: 2px solid #01bf71;
+    transition: all 0.2s ease-in-out;
 }
