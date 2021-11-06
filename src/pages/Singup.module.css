@@ -16,7 +16,7 @@
     font-size: 1.9rem;
     transition: all 0.2s ease-in-out;
 }
-form {
+.singup {
     margin-top: 30px;
     border-radius: 15px;
     display: flex;
@@ -30,7 +30,7 @@ form {
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
 }
 
-form input {
+.singupinput {
     height: 30px;
     width: 100%;
     border: none;
@@ -38,23 +38,23 @@ form input {
     padding: 10px 20px;
 }
 
-input::placeholder {
+.singupinput::placeholder {
     color: #fff;
     font-size: small;
     background: transparent;
 }
 
-form input:focus {
+.singupinput:focus {
     outline: none;
 }
-form input:hover {
+.singupinput:hover {
     border-bottom: 4px solid #01bf71;
 }
-form label {
+.singuplabel {
     margin-top: 15px;
 }
 
-form button {
+.singupbutton {
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;
@@ -70,7 +70,7 @@ form button {
     text-decoration: none;
 }
 
-button:hover {
+.singupbutton:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
     color: #010606;
