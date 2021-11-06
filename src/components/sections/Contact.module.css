@@ -69,7 +69,11 @@ form input:focus, textarea:focus {
     outline: none;
     background: transparent;
 }
-
+form input:hover, textarea:hover {
+    outline: none;
+    background: transparent;
+    border-bottom: 4px solid #01bf71;
+}
 form label {
     margin-top: 15px;
 }
@@ -89,7 +93,13 @@ form button {
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
-
+form button:hover { 
+    padding: 11px;
+    background: #fff;
+    color: #010606;
+    outline: 2px solid #01bf71;
+    transition: all 0.2s ease-in-out;
+}
 @media screen and (max-width: 760px) {
     .contactWrapper {
         flex-direction: column;
