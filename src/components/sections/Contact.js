@@ -12,8 +12,8 @@ const Contact = () => {
                     <strong>LaninTata</strong>
                     <p>Azize Šačirbegović 12</p>
                     <p>Sarajevo, 71000</p>
-                    <p> <i className="fa fa-fw fa-phone" ariaHidden="true"></i><span>Telephone:</span> <a href="tel:+38761819174">(061) 819-174</a></p>
-                    <p> <i className="fa fa-fw fa-inbox" ariaHidden="true"></i><span>Mail:</span> <a href="mailto:lanintata.dev@gmail.com">lanintata.dev@gmail.com</a></p>
+                    <p> <i className="fa fa-fw fa-phone" aria-hidden="true"></i><span>Telephone:</span> <a href="tel:+38761819174">(061) 819-174</a></p>
+                    <p> <i className="fa fa-fw fa-inbox" aria-hidden="true"></i><span>Mail:</span> <a href="mailto:lanintata.dev@gmail.com">lanintata.dev@gmail.com</a></p>
                 </address>
             </div>
             <siv className={classes.rightSide}>
