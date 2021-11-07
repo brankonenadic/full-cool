@@ -28,7 +28,7 @@ const Navbar = () => {
                         <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="contact">Contat Us</LinkS></li>
                     </ul>
                     <div className={classes.navBtn}>
-                        <LinkR to="/sing-up" className={classes.navBtnLink}>Sing up</LinkR>
+                        <LinkR to="/" className={classes.navBtnLink}>Sing up</LinkR>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="main">About Us</LinkS></li>
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="contact">Contat Us</LinkS></li>
                 </ul>
-                <div className={classes.mobileMenuList}><LinkR onClick={closeMenuHandler} to="/sing-up" className={classes.mobileBtn}>Sing up</LinkR></div>
+                <div className={classes.mobileMenuList}><LinkR onClick={closeMenuHandler} to="/" className={classes.mobileBtn}>Sing up</LinkR></div>
             </div>}
         </Fragment>
     )
