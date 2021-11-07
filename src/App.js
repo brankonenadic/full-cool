@@ -1,11 +1,11 @@
 import { Switch, Route, Redirect } from "react-router-dom";
-import { Fragment, useState } from "react";
+import { Fragment, /* useState */ } from "react";
 import Home from "./pages/Home";
-import SingupForm from "./pages/Singup";
+/* import SingupForm from "./pages/Singup"; */
 
 
 function App() {
-  const [issignup, setIssignup] = useState(false);
+  /*  const [issignup, setIssignup] = useState(false); */
   return (
     <Fragment>
       {/* <SingupForm /> */}
