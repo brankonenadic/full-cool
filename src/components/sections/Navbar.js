@@ -38,7 +38,7 @@ const Navbar = (props) => {
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="main">About Us</LinkS></li>
                     <li className={classes.mobileMenuli}><LinkS className={classes.mobileMenuItem} onClick={closeMenuHandler} to="contact">Contat Us</LinkS></li>
                 </ul>
-                <div className={classes.mobileMenuList}><LinkR onClick={closeMenuHandler} to="/" onClick={props.onClick} className={classes.mobileBtn}>Sing up</LinkR></div>
+                <div className={classes.mobileMenuList}><LinkR  to="/" onClick={props.onClick} className={classes.mobileBtn}>Sing up</LinkR></div>
             </div>}
         </Fragment>
     )
