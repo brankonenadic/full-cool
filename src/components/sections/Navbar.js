@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import classes from './Navbar.module.css';
 import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
-import { Fragment } from 'react/cjs/react.production.min';
+import { Fragment } from 'react';
 
 
 const Navbar = (props) => {
