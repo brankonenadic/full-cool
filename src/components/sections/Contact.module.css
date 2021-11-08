@@ -73,6 +73,7 @@
     outline: none;
     background: transparent;
     border-bottom: 4px solid #01bf71;
+    transition: all 0.2s ease-in-out;
 }
 .contactform label {
     margin-top: 15px;

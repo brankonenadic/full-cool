@@ -8,8 +8,10 @@
     font-size: x-large;
     color: #01bf71;
 }
+
 .message button {
     margin: auto;
+    margin-bottom: 10px;
     padding: 15px;
     display: flex;
     border: none;
@@ -19,9 +21,14 @@
     cursor: pointer;
     color: #01bf71;
 }
-  
+
+.message button:hover {
+    border-bottom: 4px solid #01bf71;
+    transition: all 0.2s ease-in-out;
+}
+
 @media (min-width: 78px) {
-   .message {
-       font-size: large;
-   }
-  }
+    .message {
+        font-size: large;
+    }
+}

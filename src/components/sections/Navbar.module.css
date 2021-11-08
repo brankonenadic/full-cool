@@ -65,6 +65,7 @@
 .navLinkS:active ,.navLinkS:hover, .navLinkS::after {
     border-bottom: 2px solid #01bf71;
     color: #01bf71;
+    transition: all 0.2s ease-in-out;
 }
 
 .navBtn {
@@ -158,6 +159,7 @@
     .mobileMenuItem:hover {
         border-bottom: 2px solid #01bf71;
         color: #01bf71;
+        transition: all 0.2s ease-in-out;
     }
     .mobileBtn:hover {
         transition: all 0.2s ease-in-out;

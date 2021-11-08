@@ -37,6 +37,7 @@
 
 .singupinput:hover {
     border-bottom: 4px solid #01bf71;
+    transition: all 0.2s ease-in-out;
 }
 
 .singuplabel {
@@ -68,6 +69,7 @@
 
 .close {
     margin: auto;
+    margin-bottom: 10px;
     padding: 15px;
     display: flex;
     border: none;
@@ -76,4 +78,9 @@
     font-size: x-large;
     cursor: pointer;
     color: #01bf71;
+}
+.close:hover {
+    
+    border-bottom: 4px solid #01bf71;
+    transition: all 0.2s ease-in-out;
 }
