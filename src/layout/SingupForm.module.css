@@ -1,24 +1,11 @@
-.wrapper {
+#wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.back {
-    font-size: 1.8rem;
-    cursor: pointer;
-    text-decoration: none;
-    color: #01bf71;
-    margin: 20px 20px 0 20px;
-}
-
-.back:hover {
-    font-size: 1.9rem;
-    border-bottom: 4px solid #01bf71;
-    transition: all 0.2s ease-in-out;
-}
-#singup-form {
+.singup {
     margin-top: 30px;
     border-radius: 15px;
     display: flex;
@@ -31,32 +18,32 @@
     
 }
 
-#singup-form input {
+.singupinput {
     height: 30px;
-    width: 100%;
+    width: 80%;
     border: none;
     border-bottom: 2px solid #01bf71;
     padding: 10px 20px;
 }
 
-#singup-form input::placeholder {
+.singupinput::placeholder {
     color: rgb(141, 138, 138);
     font-size: small;
 }
 
-#singup-form input:focus {
+.singupinput:focus {
     outline: none;
 }
 
-#singup-form input:hover {
+.singupinput:hover {
     border-bottom: 4px solid #01bf71;
 }
 
-#singup-form label {
+.singuplabel {
     padding: 5px;
 }
 
-#singup-form button {
+.singup button {
     border-radius: 20px;
     background: #01bf71;
     white-space: nowrap;
@@ -71,7 +58,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-#singup-form button:hover {
+.singup button:hover {
     padding: 11px;
     background: #fff;
     color: #010606;
@@ -79,7 +66,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-#close {
+.close {
     margin: auto;
     padding: 15px;
     display: flex;

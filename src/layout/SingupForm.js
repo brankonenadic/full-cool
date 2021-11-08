@@ -1,11 +1,11 @@
 import React from 'react';
-import classes from './SingupForm.modul.css';
+import classes from './SingupForm.module.css';
 import Modal from '../components/ui/Modal';
 
 const SingupForm = (props) => {
     return (
         <Modal>
-            <div className={classes.wrapper}>
+            <div id="wrapper">
                 <form id="singup-form" className={classes.singup}>
                     <label className={classes.singuplabel} htmlFor="name">Full Name</label>
                     <input className={classes.singupinput} name="name" placeholder="Enter full name..." type="text" required />
@@ -17,7 +17,7 @@ const SingupForm = (props) => {
                     <input className={classes.singupinput} name="re-password" autoComplete="false" placeholder="Retype password..." type="password" required />
                     <button className={classes.singupbutton}> Sing up</button>
                 </form>
-                <button id="close" onClick={props.onClose}>Close</button>
+                <button className={classes.close} onClick={props.onClose}>Close</button>
                 </div>
         </Modal>
     )

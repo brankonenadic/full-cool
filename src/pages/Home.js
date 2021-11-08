@@ -9,7 +9,7 @@ const Home = (props) => {
     return (
         <Fragment>
             <Navbar onClick={props.onShow} />
-            <Header />
+            <Header onClick={props.onShowM} />
             <Main />
             <Contact />
             <Footer />
