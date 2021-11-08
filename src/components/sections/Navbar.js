@@ -5,7 +5,7 @@ import { Link as LinkS } from 'react-scroll';
 import { Fragment } from 'react/cjs/react.production.min';
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     const [openMenu, setopenMenu] = useState(false);
 
     const openMenuHandler = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
                         <li className={classes.navListItem}><LinkS className={classes.navLinkS} to="contact">Contat Us</LinkS></li>
                     </ul>
                     <div className={classes.navBtn}>
-                        <LinkR to="/" className={classes.navBtnLink}>Sing up</LinkR>
+                        <LinkR to="/" onClick={props.onClick} className={classes.navBtnLink}>Sing up</LinkR>
                     </div>
                 </div>
             </div>

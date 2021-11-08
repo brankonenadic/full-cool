@@ -1,20 +1,26 @@
 import { Switch, Route, Redirect } from "react-router-dom";
-import React, { Fragment, /* useState */ } from "react";
+import React, { Fragment, useState } from "react";
 import Home from "./pages/Home";
 import SingupForm from "./layout/SingupForm";
 
 
 function App() {
-  /*  const [issignup, setIssignup] = useState(false); */
+   const [showForm, setShowForm] = useState(false);
+   const showFormModal = () => {
+      setShowForm(true);
+   };
+   const closeFormModal = () => {
+     setShowForm(false);
+   };
   return (
     <Fragment>
-      <SingupForm />
+     {showForm && <SingupForm  onClose={closeFormModal}/>}
       <Switch>
         <Route path="/" exact>
           <Redirect to="/home" />
         </Route>
         <Route path="/home" exact>
-          <Home />
+          <Home onShow={showFormModal} />
         </Route>
       </Switch>
     </Fragment>

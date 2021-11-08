@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './SingupForm.modul.css';
 import Modal from '../components/ui/Modal';
 
-const SingupForm = () => {
+const SingupForm = (props) => {
     return (
         <Modal>
             <div className={classes.wrapper}>
@@ -17,7 +17,7 @@ const SingupForm = () => {
                     <input className={classes.singupinput} name="re-password" autoComplete="false" placeholder="Retype password..." type="password" required />
                     <button className={classes.singupbutton}> Sing up</button>
                 </form>
-                <button id="close">Close</button>
+                <button id="close" onClick={props.onClose}>Close</button>
                 </div>
         </Modal>
     )

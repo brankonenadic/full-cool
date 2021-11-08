@@ -5,10 +5,10 @@ import Footer from '../components/sections/Footer';
 import Main from '../components/sections/Main'
 import Contact from '../components/sections/Contact';
 
-const Home = () => {
+const Home = (props) => {
     return (
         <Fragment>
-            <Navbar />
+            <Navbar onClick={props.onShow} />
             <Header />
             <Main />
             <Contact />
