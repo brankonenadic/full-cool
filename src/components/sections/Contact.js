@@ -17,7 +17,7 @@ const Contact = () => {
                 </address>
             </div>
             <siv className={classes.rightSide}>
-                <form id="contact-form" onSubmit={submiHandler}>
+                <form className={classes.contactform} onSubmit={submiHandler}>
                     <label htmlFor="name">Full Name</label>
                     <input name="name" placeholder="Enter full name..." type="text" required />
                     <label htmlFor="email">Email</label>

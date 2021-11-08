@@ -1,13 +1,11 @@
 import React from 'react';
-import classes from './SingupForm.module.css';
-import { Link as LinkR } from 'react-router-dom';
-import Modal from '../ui/Modal';
+import classes from './SingupForm.modul.css';
+import Modal from '../components/ui/Modal';
 
-const Singup = () => {
+const SingupForm = () => {
     return (
         <Modal>
             <div className={classes.wrapper}>
-                <LinkR to="/home" className={classes.back}> <i className="fas fa-chevron-left"></i> LaninTata</LinkR>
                 <form id="singup-form" className={classes.singup}>
                     <label className={classes.singuplabel} htmlFor="name">Full Name</label>
                     <input className={classes.singupinput} name="name" placeholder="Enter full name..." type="text" required />
@@ -19,9 +17,10 @@ const Singup = () => {
                     <input className={classes.singupinput} name="re-password" autoComplete="false" placeholder="Retype password..." type="password" required />
                     <button className={classes.singupbutton}> Sing up</button>
                 </form>
-            </div>
+                <button id="close">Close</button>
+                </div>
         </Modal>
     )
 }
 
-export default Singup
+export default SingupForm;

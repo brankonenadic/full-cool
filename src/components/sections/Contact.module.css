@@ -27,7 +27,7 @@
     flex: 50%;
 }
 
-form {
+.contactform {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +38,7 @@ form {
     background: transparent;
 }
 
-form input {
+.contactform input {
     height: 40px;
     width: 80%;
     border: none;
@@ -46,7 +46,7 @@ form input {
     background: transparent;
 }
 
-form textarea {
+.contactform textarea {
     margin: 15px;
     height: 70px;
     width: 80%;
@@ -59,26 +59,26 @@ form textarea {
     background: transparent;
 }
 
-input::placeholder, textarea::placeholder {
+.contactform input::placeholder, textarea::placeholder {
     color: #fff;
     font-size: small;
     background: transparent;
 }
 
-form input:focus, textarea:focus {
+.contactform input:focus, textarea:focus {
     outline: none;
     background: transparent;
 }
-form input:hover, textarea:hover {
+.contactform input:hover, textarea:hover {
     outline: none;
     background: transparent;
     border-bottom: 4px solid #01bf71;
 }
-form label {
+.contactform label {
     margin-top: 15px;
 }
 
-form button {
+.contactform button {
     border-radius: 50px;
     background: #01bf71;
     white-space: nowrap;
@@ -93,7 +93,7 @@ form button {
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
-form button:hover { 
+.contactform button:hover { 
     padding: 11px;
     background: #fff;
     color: #010606;
