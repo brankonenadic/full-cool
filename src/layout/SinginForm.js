@@ -5,7 +5,7 @@ import Modal from '../components/ui/Modal';
 const SinginForm = () => {
     return (
         <Modal>
-            <div id="wrapper">
+            <div>
                 <form id="singin-form" className={classes.singup}>
                     <label className={classes.singuplabel} htmlFor="email">Email</label>
                     <input className={classes.singupinput} name="email" placeholder="Enter email..." type="email" required />
@@ -14,7 +14,7 @@ const SinginForm = () => {
                     <button className={classes.singupbutton}> Sing in</button>
                 </form>
                 <button className={classes.close} onClick={props.onClose}>Close</button>
-                </div>
+            </div>
         </Modal>
     )
 }
